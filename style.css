@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;50;600;700;800;900&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --bg-color: #081b29;
+    --second-bg-color: #122e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: var(--second-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--main-color);
+    
+}
+.nav-menu a{
+    color: var(--text-color);
+    font-size: 16px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+.nav-menu a:hover{
+    color: var(--main-color);
+    font-weight: bold;
+}
+.nav-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.nav-btn a{
+    color: var(--text-color);
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: var(--main-color);
+    transition: background-color 0.3s ease;
+}
+.nav-btn a:hover{
+    background-color: #174a6e;
+    font-weight: bold;
+}
