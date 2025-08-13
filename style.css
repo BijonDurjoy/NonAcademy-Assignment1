@@ -15,7 +15,7 @@
     --bg-color: #081b29;
     --second-bg-color: #122e42;
     --text-color: #ededed;
-    --main-color: #00abf0;
+    --main-color: #3391b6;
 
 }
 
@@ -30,7 +30,7 @@ body{
     left: 0;
     width: 100%;
     height: 60px;
-    background-color: var(--second-bg-color);
+    background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,10 +43,15 @@ body{
     color: var(--main-color);
     
 }
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 .nav-menu a{
     color: var(--text-color);
     font-size: 16px;
-    margin: 0 10px;
+    margin: 0 5px; 
     transition: color 0.3s ease;
 }
 .nav-menu a:hover{
@@ -71,4 +76,76 @@ body{
 .nav-btn a:hover{
     background-color: #174a6e;
     font-weight: bold;
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+/*banner styles*/
+.banner{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 70px); 
+    padding: 0 5vw;
+    gap: 60px;
+    margin-top: 70px;
+}
+.banner-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-start;
+    min-width: 320px;
+}
+
+.banner-content h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.banner-content p{
+    font-size: 1.15rem;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+.banner-content h4{
+    font-size: 1.5rem;
+    color: var(--main-color);
+    margin-bottom: 20px;
+}
+
+.banner-content a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    transition: background-color 0.3s ease;
+}
+.banner-content a:hover{
+    background-color: #174a6e;
+    font-weight: bold;
+}
+
+.banner-img{
+    width: 620px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.banner-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
 }
