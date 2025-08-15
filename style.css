@@ -256,3 +256,77 @@ section {
     color: var(--text-color);
     text-align: center;
 }
+
+/* About Blockchain Section*/
+.aboutblockchain {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blockchainbox {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 30px;
+    background: var(--second-bg-color);
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+.blockchainbox-content {
+    flex: 1 1 350px;
+}
+
+.blockchainbox-content h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.blockchainbox-content p {
+    font-size: 1.1rem;
+    color: var(--text-color);
+}
+
+.blockchainbox-icon {
+    flex: 1 1 500px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.box-icon {
+    background: #7e83825d;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    padding: 1.5rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.box-icon i {
+    color: #22a06b;
+    font-size: 2rem;
+    margin-bottom: 0.7rem;
+}
+
+.box-icon h3 {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+.box-icon p {
+    color: var(--text-color);
+    font-size: 0.9rem;
+    margin: 0;
+}
