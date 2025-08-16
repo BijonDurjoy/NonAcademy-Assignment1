@@ -30,7 +30,7 @@ body{
     left: 0;
     width: 100%;
     height: 60px;
-    background-color: transparent;
+    background-color: #4c4e52;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -416,4 +416,114 @@ section {
 
 .contact-btn .btn:hover {
     background: #174a6e;
+}
+
+/* Footer styles */
+.footer {
+    background: #222d3b;
+    color: #bfc9d1;
+    padding: 3rem 0 2rem 0;
+    font-size: 1rem;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.footer-col {
+    flex: 1 1 180px;
+    min-width: 180px;
+    margin-bottom: 2rem;
+}
+
+.logo-col {
+    flex: 1.5 1 220px;
+}
+
+.footer-logo {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.footer-social {
+    margin-top: 1.2rem;
+}
+
+.footer-social a {
+    color: #bfc9d1;
+    margin-right: 0.7rem;
+    font-size: 1.2rem;
+    transition: color 0.2s;
+}
+
+.footer-social a:hover {
+    color: #3391b6;
+}
+
+.footer-col h4 {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 0.7rem;
+}
+
+.footer-col ul li a {
+    color: #bfc9d1;
+    text-decoration: none;
+    transition: color 0.2s;
+    font-size: 1rem;
+}
+
+.footer-col ul li a:hover {
+    color: #3391b6;
+}
+
+.footer-form {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.footer-form input[type="email"] {
+    padding: 0.6rem 1rem;
+    border-radius: 6px 0 0 6px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: #2e3a4d;
+    color: #fff;
+    width: 160px;
+}
+
+.footer-form button {
+    padding: 0.6rem 1rem;
+    border-radius: 0 6px 6px 0;
+    border: none;
+    background: #2e3a4d;
+    color: #bfc9d1;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.footer-form button:hover {
+    background: #3391b6;
+    color: #fff;
 }
