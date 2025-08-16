@@ -330,3 +330,90 @@ section {
     font-size: 0.9rem;
     margin: 0;
 }
+
+/* Contact us section */
+.contact{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    flex-direction: row;
+    padding: 5rem ;
+    gap: 2rem;
+}
+.contact-left{
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    padding: 1rem;
+    background: var(--second-bg-color);
+}
+
+.contact-right {
+    background: var(--second-bg-color);
+    border-radius: 12px;
+    padding: 2.5rem 2rem;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    display: flex;
+    flex-direction: column;
+    min-width: 340px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.contact-right h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.contact-right form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.input-box input,
+.input-box textarea {
+    padding: 0.9rem 1rem;
+    border-radius: 6px;
+    border: 1px solid #2e4e6c;
+    background: #fff;
+    color: #222;
+    font-size: 1rem;
+    resize: none;
+    transition: border 0.2s;
+}
+
+.input-box input:focus,
+.input-box textarea:focus {
+    border: 1.5px solid var(--main-color);
+    outline: none;
+}
+
+.contact-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-btn .btn {
+    background: var(--main-color);
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.contact-btn .btn:hover {
+    background: #174a6e;
+}
