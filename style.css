@@ -428,7 +428,7 @@ section {
     color: var(--main-color);
     text-decoration: none;
     font-weight: 600;
-    font-size: 0.5rem;
+    font-size: 1rem;
     text-decoration: none;
 }
 
@@ -636,4 +636,87 @@ section {
 .footer-form button:hover {
     background: #3391b6;
     color: #fff;
+}
+
+/*Mobile Responsiveness*/
+@media (max-width: 768px){
+    
+
+    .banner{
+        flex-direction: column;
+        margin-top: 80px;
+        gap: 20px;
+    }
+    .banner-img{
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+    }
+    .banner-content{
+        text-align: center;
+        align-items: center;
+    }
+
+        .client-logo {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            justify-items: center;
+        }
+    
+        .client-logo img {
+            width: 100px;
+            height: auto;
+        }
+
+    .blockchainpow-card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .blockchainbox{
+        flex-direction: column;
+    }
+    .blockchainbox-icon {
+        grid-template-columns: 1fr;
+    }
+
+    .future-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .future-card {
+        flex: 1 1 45%;
+        max-width: 45%;
+    }
+    .contact{
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+    .contact-left{
+        width: 100%;
+        text-align: center;
+    }
+    .contact-right{
+        width: 100%;
+    }
+
+        .footer-container {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .footer-col {
+            width: 100%;
+        }
+    
+        .footer-form {
+            justify-content: center;
+        }
 }
