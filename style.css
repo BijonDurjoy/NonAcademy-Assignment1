@@ -11,6 +11,7 @@
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
+
 :root {
     --bg-color: #081b29;
     --second-bg-color: #122e42;
@@ -19,12 +20,12 @@
 
 }
 
-body{
+body {
     background-color: var(--bg-color);
     color: var(--text-color);
 }
 
-.navbar{
+.navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -37,34 +38,39 @@ body{
     padding: 0 20px;
 }
 
-.logo{
+.logo {
     font-size: 2.5rem;
     font-weight: 600;
     color: var(--main-color);
-    
+
 }
-.nav-right{
+
+.nav-right {
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.nav-menu a{
+
+.nav-menu a {
     color: var(--text-color);
     font-size: 16px;
-    margin: 0 5px; 
+    margin: 0 5px;
     transition: color 0.3s ease;
 }
-.nav-menu a:hover{
+
+.nav-menu a:hover {
     color: var(--main-color);
     font-weight: bold;
 }
-.nav-btn{
+
+.nav-btn {
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
 }
-.nav-btn a{
+
+.nav-btn a {
     color: var(--text-color);
     font-size: 16px;
     padding: 10px 20px;
@@ -73,7 +79,8 @@ body{
     background-color: var(--main-color);
     transition: background-color 0.3s ease;
 }
-.nav-btn a:hover{
+
+.nav-btn a:hover {
     background-color: #174a6e;
     font-weight: bold;
 }
@@ -84,16 +91,17 @@ section {
 }
 
 /*banner styles*/
-.banner{
+.banner {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: calc(100vh - 70px); 
+    min-height: calc(100vh - 70px);
     padding: 0 5vw;
     gap: 60px;
     margin-top: 70px;
 }
-.banner-content{
+
+.banner-content {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -103,24 +111,25 @@ section {
     min-width: 320px;
 }
 
-.banner-content h1{
+.banner-content h1 {
     font-size: 3.5rem;
     font-weight: 700;
     color: var(--text-color);
 }
 
-.banner-content p{
+.banner-content p {
     font-size: 1.15rem;
     color: var(--text-color);
     margin-bottom: 20px;
 }
-.banner-content h4{
+
+.banner-content h4 {
     font-size: 1.5rem;
     color: var(--main-color);
     margin-bottom: 20px;
 }
 
-.banner-content a{
+.banner-content a {
     text-decoration: none;
     color: var(--text-color);
     font-size: 1.2rem;
@@ -129,12 +138,13 @@ section {
     background-color: var(--main-color);
     transition: background-color 0.3s ease;
 }
-.banner-content a:hover{
+
+.banner-content a:hover {
     background-color: #174a6e;
     font-weight: bold;
 }
 
-.banner-img{
+.banner-img {
     width: 620px;
     height: 400px;
     display: flex;
@@ -149,14 +159,16 @@ section {
     object-fit: cover;
     border-radius: 20px;
 }
- /* Client Section design */
-.client{
+
+/* Client Section design */
+.client {
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding-top: 2rem;
 }
-.client-content{
+
+.client-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -164,20 +176,23 @@ section {
     margin-top: -10px;
     margin-left: 20px;
 }
-.client-content h1{
+
+.client-content h1 {
     font-size: 2.5rem;
     font-weight: 600;
     color: var(--text-color);
     margin-bottom: 5px;
 }
-.client-content p{
+
+.client-content p {
     font-size: 1.2rem;
     color: var(--text-color);
     text-align: center;
     max-width: 600px;
     margin-bottom: 30px;
 }
-.client-logo{
+
+.client-logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -191,33 +206,38 @@ section {
     object-fit: contain;
     display: block;
 }
+
 /* Blockchain Power Section design */
-.blockchainpow{
+.blockchainpow {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 3rem 1rem;
 }
-.blockchainpow-content{
+
+.blockchainpow-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 2rem;
 }
-.blockchainpow-content h1{
+
+.blockchainpow-content h1 {
     font-size: 2.5rem;
     font-weight: 600;
     color: var(--text-color);
     margin-bottom: 0.5rem;
     text-align: center;
 }
-.blockchainpow-content p{
+
+.blockchainpow-content p {
     color: var(--text-color);
     font-size: 16px;
     text-align: center;
 }
-.blockchainpow-card{
+
+.blockchainpow-card {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -226,10 +246,11 @@ section {
     max-width: 1200px;
     margin: 10px;
 }
-.card{
+
+.card {
     background: var(--second-bg-color);
     border-radius: 15px;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
     padding: 2rem 1.5rem;
     flex: 1 1 280px;
     max-width: 350px;
@@ -239,19 +260,22 @@ section {
     align-items: center;
     transition: transform 0.3s, box-shadow 0.3s;
 }
-.card i{
+
+.card i {
     font-size: 2.5rem;
     color: var(--main-color);
     margin-bottom: 1rem;
 }
-.card h3{
+
+.card h3 {
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--text-color);
     margin-bottom: 0.5rem;
     text-align: center;
 }
-.card p{
+
+.card p {
     font-size: 15px;
     color: var(--text-color);
     text-align: center;
@@ -267,7 +291,7 @@ section {
 
 .blockchainbox {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
@@ -305,7 +329,7 @@ section {
 .box-icon {
     background: #7e83825d;
     border-radius: 12px;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
     padding: 1.5rem 1.2rem;
     display: flex;
     flex-direction: column;
@@ -331,16 +355,102 @@ section {
     margin: 0;
 }
 
-/* Contact us section */
-.contact{
+/* Blockchain Future Section */
+.blockchain-future {
+    padding: 4rem 2rem;
+    text-align: center;
     display: flex;
-    justify-content: space-between;  
+    flex-direction: column;
     align-items: center;
-    flex-direction: row;
-    padding: 5rem ;
+    justify-content: center;
+}
+
+.future-content h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.future-content p {
+    color: var(--text-color);
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 2.5rem auto;
+}
+
+.future-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 2rem;
 }
-.contact-left{
+
+.future-card {
+    position: relative;
+    width: 320px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.future-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-over {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: rgba(10, 10, 10, 0.7);
+    color: #fff;
+    padding: 1rem;
+    text-align: left;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card-over p {
+    font-size: 1em;
+    margin-top: 0.5rem;
+}
+
+.card-over a {
+    color: var(--main-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.5rem;
+    text-decoration: none;
+}
+
+.future-card:hover .card-over {
+    opacity: 1;
+}
+
+.future-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Contact us section */
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 5rem;
+    gap: 2rem;
+}
+
+.contact-left {
     border: 1px solid var(--main-color);
     border-radius: 10px;
     padding: 1rem;
@@ -351,7 +461,7 @@ section {
     background: var(--second-bg-color);
     border-radius: 12px;
     padding: 2.5rem 2rem;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
     display: flex;
     flex-direction: column;
     min-width: 340px;
